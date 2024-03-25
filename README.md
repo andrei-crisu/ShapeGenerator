@@ -8,9 +8,9 @@
 -triangles  
    
      
-   ![shape_generation_home](https://user-images.githubusercontent.com/68897925/155889239-ebb156f5-553b-4769-b8b2-c9dd58b52547.png) 
+   ![Main Menu](other_resources/main_menu.png) 
 ## In the next picture can be seen few of the shapes that can be generated:
-   ![generate_all](https://user-images.githubusercontent.com/68897925/155889759-c9b43573-6820-4902-a229-9e45c10193e3.png)
+   ![Generated Shapes](other_resources/shapes_1.png)
 
 
 ## Drawing of a star:  
@@ -19,11 +19,11 @@
     The radius represent the distance from star center to the one of the vertices.The center point is randomly generated ,where x and y coordinates are values between -300 and 300. </i> 
   
   <i> First image shows a **5** vertices star with a depth of 60%. </i>  
-  ![generate_star](https://user-images.githubusercontent.com/68897925/155890134-be02b4e5-90ff-4183-9aac-3e89c3dd9cb4.png)
+  ![Simple Star](other_resources/star_shape.png)
     <br><br><br><br>
   <i> Second image shows a **16** vertices start with a depth of 90%. </i>
     <br>
-  ![generate_star2](https://user-images.githubusercontent.com/68897925/155890138-a60a5904-c8e7-4f78-991f-e2657314c2c3.png)  
+  ![Complex Star](other_resources/star_shape2.png)  
   
   <i>For simplicity reason the explanation will continue with the first example. The algorithm of star drawing is the next one:   
         1. It is generated a random number between 60 and 120 which represent the long radius.Distance from star center to a star vertex is considered a long radius.    
@@ -64,7 +64,7 @@
 <i>-Equilateral triangle</i><br>
 <i>-Not random. (In this case the user chooses the coordinates of the vertices. The algorithm implements also a collinearity check to ensure that the 3 points could be the vertices of a triangle)</i><br><br><br>
 <b>In the next image can be seen a star and different types of triangles.</b>
-![shape_generation_triangles_and_stars](https://user-images.githubusercontent.com/68897925/156201571-206e5a9c-cb4c-4dd4-9459-1b6b8d7fdb38.png)
+![Shape information](other_resources/shape_information.png)
 <br><br>
 
 ## Drawing rectangles
@@ -72,7 +72,7 @@
 <i>The main properties that can be modified by the user for rectangle generation are : top left corner, width ,height and rotation angle.</i><br>
 <i>The rectangle will be represented as a 4 vertices polygonal contour. The first point will be the top left corner. If the rotation angle is not 0 then the rotation will be done after the top left corner. The other 3 vertices of the rectangle will be computed based on rotation angle, top left corner, width, and height. </i><br><br>
 
-![shape_generation_rectangles](https://user-images.githubusercontent.com/68897925/156203677-bbe6e27e-0ae8-4c0c-a023-1397fb745747.png)
+![Rectangles](other_resources/rectangles.png)
 <br><br><br><br>
 
 ## Drawing cogwheels 
@@ -83,7 +83,7 @@ The first parameter that can be selected is the teeth number that the cogwheel w
 The second parameter is the cog base radius which is the distance from the circumscribed circle center to the tooth base. The radius can be a number between 100 and 300.
 
 The last editable parameter is the cogwheel teeth height. It is computed as a percentage between 5% and 20% of the cogwheel base radius. It is the distance between the base and top of the cogwheel tooth.</i><br>
-![shape_generation_cogs](https://user-images.githubusercontent.com/68897925/156217887-48aa18ed-5e2d-4985-a6ac-d65ec4f5ecd4.png)
+![Cogs](other_resources/cogs.png)
 
 <br><br>
 <i>
@@ -106,7 +106,7 @@ It is also necessary to mention that vertices coordinates are relative to the ce
    Vertex 4 of pattern k is P<sub>4(r,<span>&#952;</span>)</sub>(base_radius,60% of step_angle+k\*angle_step).<br><br><br>
 </i>
 
-![cog_explanation](https://user-images.githubusercontent.com/68897925/156220336-a8667571-f03c-4bae-a397-e628927c94f7.png)
+![Cogs Explanation](other_resources/cogs_explanation.png)
 
 
 
